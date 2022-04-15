@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main {
+    background-color: #f9f9f9;
+}
+#title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.description {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#img-caption {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+#tribute-info {
+    max-width: 50%;
+    margin: auto;
+}
+#tribute-info>h2 {
+    text-align: center;
+    margin: 2rem auto;
+}
+#tribute-info ul li {
+    margin: 1.5rem auto;
+}
+.center {
+    text-align: center;
+}
